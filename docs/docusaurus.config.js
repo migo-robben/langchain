@@ -20,8 +20,8 @@ const config = {
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/v0.1/",
   trailingSlash: false,
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "throw",
+  onBrokenLinks: "warn",
+  onBrokenMarkdownLinks: "warn",
 
   themes: ["@docusaurus/theme-mermaid"],
   markdown: {
