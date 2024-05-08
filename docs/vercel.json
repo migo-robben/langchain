@@ -15,7 +15,7 @@
     },
     {
       "source": "(/?)",
-      "destination": "/v0.1/docs/getting_started/introduction"
+      "destination": "/v0.1/docs/get_started/introduction"
     },
     {
       "source": "/v0.1/docs/integrations/llms/titan_takeoff_pro",
