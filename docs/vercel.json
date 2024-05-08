@@ -1,5 +1,11 @@
 {
   "trailingSlash": true,
+  "rewrites": [
+    {
+      "source": "/v0.2/:path*",
+      "destination": "https://langchain-v02.vercel.app/v0.2/:path*"
+    }
+  ],
   "redirects": [
     {
       "source": "/v0.1/docs/integrations/llms/titan_takeoff_pro",
