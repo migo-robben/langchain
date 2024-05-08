@@ -118,6 +118,10 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      announcementBar: {
+        content: 'LangChain v0.2 is coming soon! Preview the new docs <a href="https://python.langchain.com/v0.2/">here</a>.',
+        isCloseable: true,
+      },
       docs: {
         sidebar: {
           hideable: true,
